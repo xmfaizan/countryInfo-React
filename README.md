@@ -1,4 +1,4 @@
-first react project
+my first ever react project
 
 data is fetched directly from https://restcountries.com/v3.1/all
 
@@ -8,14 +8,17 @@ data is fetched directly from https://restcountries.com/v3.1/all
 ```bash
 country-info/
 ├── src/
-│   ├── App.jsx             # Main application component with routing and state management
+│   ├── App.jsx             
 │   ├── components/
-│   │   ├── Navbar.jsx      # Navigation bar with home and bucket list links
-│   │   └── CountryCard.jsx # Card component to display country information
+│   │   ├── Navbar.jsx      
+│   │   └── CountryCard.jsx 
 │   ├── pages/
-│   │   ├── HomePage.jsx    # Home page with search and country grid
-│   │   └── BucketListPage.jsx # Page to display favorited countries
-│   └── main.jsx            # Entry point for the React application
+│   │   ├── HomePage.jsx    
+│   │   └── BucketListPage.jsx 
+│   └── main.jsx            
 ├── public/
-│   └── index.html          # HTML template
-└── package.json            # Project dependencies and scripts
+│   └── index.html          
+└── package.json            
+
+```
+![Home Page](homepage.png)
